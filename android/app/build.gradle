@@ -92,9 +92,9 @@ android {
     signingConfigs {
         release {
             storeFile file('hn-reader_android.keystore')
-            storePassword MYAPP_RELEASE_STORE_PASSWORD
-            keyAlias MYAPP_RELEASE_KEY_ALIAS
-            keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            storePassword "12345678"
+            keyAlias "alias"
+            keyPassword "alias"
         }
     }
     splits {
